@@ -1,1 +1,1 @@
-#Test task for Russian company Vipservice.
+# Test task for Russian company Vipservice.
