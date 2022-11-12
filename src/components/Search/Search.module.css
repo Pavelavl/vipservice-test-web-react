@@ -1,0 +1,100 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    width: 80vw;
+    height: 20vh;
+    box-shadow: 0px 0px 14px rgba(112, 121, 153, 0.3);
+    border-radius: 15px;
+}
+
+.inputs {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #5C87DB;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.span {
+    color: #fff;
+    display: flex;
+    padding: 0 0 5px 5px;
+    font-size: 14px;
+}
+
+.inputbox {
+    flex-flow: column;
+}
+
+.input, .dateinput {
+    border-radius: 10px;
+    display: flex;
+    height: 40px;
+    width: 250px;
+    padding-left: 12px;
+}
+
+.inputbox:nth-child(3), .inputbox:nth-child(2) {
+    margin-left: 20px;
+}
+
+.dot {
+    width: 18px;
+    border: 1px dashed #fff;
+    display: flex;
+    align-items: center;
+    margin-top: 22px;
+    opacity: 0.6;
+}
+
+.dateinput {
+    flex-direction: row-reverse;
+}
+
+.dateinput::placeholder {
+    opacity: 0.5;
+}
+
+::-webkit-calendar-picker-indicator {
+    margin-right: 7px;
+    background: url(../../assets/date.svg);
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+    transition: 0.1s ease;
+}
+
+::-webkit-calendar-picker-indicator:active {
+    background: url(../../assets/dateblue.svg);
+}
+
+.btn_block {
+    display: flex;
+    justify-content: flex-end;
+    padding: 23px 29px 23px 0;
+}
+
+.btn {
+    width: 160px;
+    height: 38px;
+    border: 2px solid #5C87DB;
+    font-family: inherit;
+    font-size: 14px;
+    border-radius: 10px;
+    background-color: #5C87DB;
+    color: #fff;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #5C87DB;
+}
