@@ -137,7 +137,7 @@ const Info: FC = (): JSX.Element => {
                   <div className={styles.start}>
                     <span className={styles.time}>{timing[0]}</span>
                     <span className={styles.city}>{location.state.from}</span>
-                    <span className={styles.date}>{there}</span>
+                    <span className={styles.date}>{back}</span>
                   </div>
                   <div className={styles.fromto}>
                     <div className={styles.abb}>
@@ -154,7 +154,7 @@ const Info: FC = (): JSX.Element => {
                   <div className={styles.end}>
                     <span className={styles.time}>{timing[1]}</span>
                     <span className={styles.city}>{location.state.to}</span>
-                    <span className={styles.date}>{there}</span>
+                    <span className={styles.date}>{back}</span>
                   </div>
                   <div className={styles.icons}>
                     <img src={shopper} alt="" className={styles.shopper} />
