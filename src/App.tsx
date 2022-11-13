@@ -7,8 +7,6 @@ import Info from './components/Info/Info';
 import './App.css'
 
 function App() {
-  const navigate = useNavigate()
-  
   return (
     <Routes>
       <Route index element={<Index />} />

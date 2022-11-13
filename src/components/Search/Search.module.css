@@ -6,7 +6,7 @@
 }
 
 .form {
-    width: 80vw;
+    width: 62vw;
     height: 20vh;
     box-shadow: 0px 0px 14px rgba(112, 121, 153, 0.3);
     border-radius: 15px;
@@ -37,7 +37,7 @@
     border-radius: 10px;
     display: flex;
     height: 40px;
-    width: 250px;
+    width: 13vw;
     padding-left: 12px;
 }
 
@@ -94,7 +94,7 @@
     cursor: pointer;
 }
 
-.btn:hover {
-    background-color: #fff;
-    color: #5C87DB;
+.btn:disabled {
+    background: #B7BAC1;
+    border: none;
 }

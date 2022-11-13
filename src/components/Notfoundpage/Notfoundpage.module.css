@@ -1,0 +1,10 @@
+.sorry {
+    font-size: 72px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: #000;
+    text-align: center;
+}

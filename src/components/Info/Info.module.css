@@ -1,0 +1,211 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.singleticket {
+    height: 25vh;
+    width: 70vw;
+    box-shadow: 0px 0px 14px rgba(112, 121, 153, 0.3);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.partticket {
+    height: 22vh;
+    width: 60vw;
+    border-radius: 15px 0;
+    display: flex;
+    justify-content:flex-start;
+}
+
+.partticket:nth-child(2) {
+    border-top: 1px dashed #5C87DB;
+}
+
+.logoblock {
+    width: 14vw;
+}
+
+.sticker {
+    height: 26px;
+    width: 9vw;
+    border-radius: 15px 0;
+    background: #8BA5D8;
+    padding: 6px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.logo {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 162px;
+}
+
+.logoimg {
+    padding-bottom: 15px;
+    width: 50px;
+    height: 50px;
+}
+
+.logotext {
+    font-size: 18px;
+    line-height: 21px;
+    color: #5C5C5C;
+}
+
+.infoblock {
+    width: 50vw;
+    display: flex;
+    flex-flow: column;
+}
+
+.top {
+    display: flex;
+    height: 70%;
+}
+
+.start,
+.end {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+}
+
+.time {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 28px;
+}
+
+.city {
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #5C5C5C;
+}
+
+.date {
+    color: #5C5C5C;
+    padding-top: 3px;
+}
+
+.fromto {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    color: #B7BAC1;
+    padding: 0 40px;
+}
+
+.abb {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.abbfrom {
+    margin-left: -9px;
+}
+
+
+.abbto {
+    margin-right: -9px;
+}
+
+.route {
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    width: 22.5vw;
+    border: 1px solid #B7BAC1;
+}
+
+.circle {
+    background: #C4C4C4;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.onway {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    padding: 0 20px 0 40px;
+}
+
+.shopper {
+    width: 25px;
+    height: 25px;
+    margin-bottom: -20px;
+}
+
+.bag {
+    width: 30px;
+    height: 50px;
+    padding-left: 10px;
+}
+
+.priceblock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid #DDE3EE;
+    width: 15vw;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 38px;
+}
+
+.bottom {
+    height: 40%;
+    display: flex;
+    align-items: center;    
+}
+
+.changer {
+    background: #FFFFFF;
+    border: 1px solid #B7BAC1;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    transition: 0.2s ease;
+    padding: 6px 7px;
+    color: #5C5C5C;
+    outline: none;
+}
+
+.changer + .changer {
+    margin-left: 20px;
+}
+
+.changer:focus {
+    background: #DDE3EE;
+    padding: 10px 15px;
+    color: #000;
+}
+
+.doubleticket {
+    background: #fff;
+    box-shadow: 0px 0px 14px rgba(112, 121, 153, 0.3);
+    border-radius: 15px;
+    display: flex;
+}
